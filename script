@@ -2,8 +2,8 @@ local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 picked = colour
 CoreGui:SetCore("SendNotification", {
     -- Customizable
-    Title = "niggerskid.cc",
-    Text = "niggerskid has been injected",
+    Title = "niggerskid.cc dotlock zarko#8941",
+    Text = "niggerskid dot lock has been injected",
     Duration = 3, 
 
 })
