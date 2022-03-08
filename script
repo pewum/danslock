@@ -1,5 +1,5 @@
 local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
-
+picked = colour
 CoreGui:SetCore("SendNotification", {
     -- Customizable
     Title = "niggerskid.cc",
