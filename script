@@ -25,7 +25,7 @@ function makemarker(Parent, Adornee, Colour, Size, Size2)
     local a = Instance.new("Frame", e)
     a.Size = UDim2.new(1, 0, 1, 0)
     a.BackgroundTransparency = 0
-    a.BackgroundColor3 = Color3.fromRGB(picked)
+    a.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
     local g = Instance.new("UICorner", a)
     g.CornerRadius = UDim.new(30, 30)
     return(e)
