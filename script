@@ -84,20 +84,27 @@ end)
 
 mouse.KeyDown:Connect(function(k)
     if k ~= "c" then return end
-    if enabled then
+    if enabled == true then
         enabled = false
         guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    else
-        enabled = true 
+    game.StarterGui:SetCore("SendNotification", {
+      Title = "niggerskid.cc",
+      Text = "Unlocked"
+    })
+  
+    
+    elseif enabled == false  then
+        enabled = true
         Plr = getClosestPlayerToCursor()
         guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-    end 
-    va = true
+     va = true
     vb = getClosestPlayerToCursor()
     game.StarterGui:SetCore("SendNotification", {
       Title = "niggerskid.cc",
       Text = "Target: " .. tostring(vb.Name)
     })
+  end
+    
 
 
 end)
